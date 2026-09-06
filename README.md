@@ -1,2 +1,6 @@
-# geodev-lab-project
-This adresses the question of where heat stress is most concentrated in Abuja Municipal Area Council (AMAC)
+# My Geodev Lab Africa project
+
+Which local government areas in Abuja Municipal Area Council (AMAC) experience the highest Urban Heat Island intensity due to built‑up density and vegetation loss?
+
+Built over twelve months with GeoDev Lab Africa, Cohort One. 
+See project-brief.md for the full brief
