@@ -1,0 +1,33 @@
+My project brief
+
+The question
+
+Which local government areas in Abuja Municipal Area Council (AMAC) experience the highest Urban Heat Island intensity due to built‑up density and vegetation loss?
+
+
+The data I need
+
+-FCT LGA boundary shapefiles - GRID3 - https://data.grid3.org - GeoPackage - 50MB.
+-Landsat 8/9 thermal infrared bands - USGS Earth Explorer - https://earthexplorer.usgs.gov - GeoTIFF - 919MB.
+-Sentinel‑2 multispectral bands - Copernicus Open Access Hub - https://scihub.copernicus.eu - SAFE package (JPEG2000 inside) - 700MB.
+-Digital Elevation Model (DEM) - CGIAR‑CSI - https://srtm.csi.cgiar.org - GeoTIFF, ASCII - 23MB.
+-Road network shapefiles - Geofabrik - https://download.geofabrik.de - Shapefile, GeoPackage - 200MB.
+-Hydrology layers - HydroSHEDS - https://www.hydrosheds.org - GeoTIFF (.tif), GeoPackage - 3GB.
+-Population density data - WorldPop - https://www.worldpop.org - GeoTIFF (.tif), ASCII XYZ - 90MB.
+-Meteorological records - NiMet Climate Data Portal - https://nimet.gov.ng or ENACTS datasets - NetCDF (.nc), ASCII, ArcInfo GRID - 1GB.
+
+
+Why it matters
+
+Understanding where heat intensity is strongest in AMAC is critical for urban planners, environmental agencies, public health officials and the Nigerian government as a whole. 
+Planners can prioritize green infrastructure in hotspots, while health agencies can prepare cooling interventions for vulnerable or affected communities. 
+Non-Governmental Organizations (NGOs) and climate researchers/advocates can use the insights to advocate for sustainable development policies. 
+By pinpointing heat‑affected locations within the LGA, decision‑makers can allocate resources more effectively and reduce risks of heat stress, energy demand spikes and poor air quality.
+
+
+What I would build
+
+A web‑based interactive dashboard that displays NDVI, NDBI and LST layers per ward within AMAC, which would be updated monthly as new satellite data arrives. 
+Users could toggle between vegetation, built‑up density and heat intensity maps, with pop‑ups showing average/max values per ward. 
+The dashboard would serve as a decision‑support tool for planners and health agencies, helping them identify hotspots and track changes over time.
+
